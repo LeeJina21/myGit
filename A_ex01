@@ -1,0 +1,20 @@
+class Dog{
+	String name;
+	void bark() {
+		System.out.println("강아지는 왈왈");
+	}
+}
+
+
+public class A_ex01 {
+
+	public static void main(String[] args) {
+		Dog MyDog;
+		MyDog = new Dog();
+		MyDog.name = "곤지";
+		MyDog.bark();
+		
+		System.out.println("강아지의 이름은 "+MyDog.name+"입니다.");
+	}
+
+}
