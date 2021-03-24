@@ -1,0 +1,19 @@
+
+public class Ex03_15 {
+
+	public static void main(String[] args) {
+		String str1 = "IT CookBook 입니다."; //""는 무조건 문자열이다
+		String str2 = "10";
+		String str3 = "20";
+		
+		str1 = "Java 입니다. "; // 위에 "IT CookBook 입니다."를 날리고  "Java 입니다. "를 넣어라
+		
+		System.out.println("str1 : " + str1);
+		System.out.println("더하기 결과 : " + str2 + str3);
+		
+		int num1 = Integer.parseInt(str2); // Integer.parseInt 데이터 타입을 문자에서 숫자로 바꾸는 것. / int 정수함수 / num1 정수 데이터 메모리 장소
+		int num2 = Integer.parseInt(str3);
+		System.out.println("더하기 결과 : " + (num1 + num2));
+	}
+
+}
