@@ -1,0 +1,33 @@
+
+public class Ex04_03 {
+
+	public static void main(String[] args) {
+		int a = 10;
+		
+		a++;
+		System.out.println("a는 " + a);
+		System.out.println("a++는 " + a++); // a++이면 실행 순서가 / 위에 프린터엘에 시행되고 a++이 된다. 
+		
+		System.out.println("a는 "+a); //
+		System.out.println("++a " + ++a +"\n"); //a를 실행전에 연산 먼저 하고 출력이 된다.
+		
+		a--;
+		System.out.println("a는 " + a);
+		
+		a+=5;
+		System.out.println("a는 " + a);
+		
+		a-=5;
+		System.out.println("a는 " + a);
+		
+		a*=5;
+		System.out.println("a는 " + a);
+		
+		a /= 5;
+		System.out.println("a는 " + a);
+		
+		a%=5;
+		System.out.println("a는 " + a);
+	}
+
+}
