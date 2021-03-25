@@ -1,0 +1,29 @@
+class Student{
+	int number;
+	
+	public Student(int number) {
+		this.number = number;
+	}
+	
+	void print_number() {
+		System.out.println("해당 학생의 번호는 "+number);
+	}
+}
+
+
+public class A_ex02 {
+
+	public static void main(String[] args) {
+		Student[] list;
+		list = new Student[5];
+		
+		for (int i=0;i<list.length;i++) {
+			list[i] = new Student(i);
+		}
+		
+		for (int i=0;i<list.length;i++) {
+			list[i].print_number();
+		}
+	}
+
+}
