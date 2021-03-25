@@ -1,0 +1,15 @@
+
+public class Ex05_01 {
+
+	public static void main(String[] args) {
+		int a = 99;
+		
+		if( a < 100) { // 모든 영역을 {}로 표현한다 {}를 안하면 첫 줄만 자기 영역으로 생각하고 실행함.
+			System.out.println("100보다 작으면 출력");
+			
+		}
+		
+		System.out.println("이쪽은 무조건 실행된다");
+	}
+
+}
