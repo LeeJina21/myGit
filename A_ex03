@@ -1,0 +1,16 @@
+
+public class A_ex03 {
+
+	public static void main(String[] args) {
+		int[] aaa = new int[100];
+		
+		for(int i=0; i<11; i++){
+			aaa[i]=i;
+			
+			System.out.println(i);
+			
+		}
+		System.out.println(aaa); /// ???? 얘 왜 이럼???
+	}
+
+}
