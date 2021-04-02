@@ -1,0 +1,18 @@
+
+public class A_ex06_02 {
+
+	public static void main(String[] args) {
+		System.out.printf("%c%c %c \n",'%', 'c', 'a'); // '' 아니면 출력 안됨 한 글자씩
+		System.out.printf("%s \n", "\'%s\'는 문자열");
+		System.out.printf("%14s \n", "\'%s\'는 문자열"); // 문자열에 %014은 안됨~~~
+		System.out.printf("%f \n", 10.56f);
+		System.out.printf("%6.3f \n", 10.56f);
+		System.out.printf("%6.2f \n", 10.56f);
+		System.out.printf("%6.2f \n", 10.56876f);
+		System.out.printf("%d \n", 1000);
+		System.out.printf("%6d \n", 1000);
+		System.out.printf("%06d \n", 1000);
+		System.out.printf("%x", 1234567899); // 결과값 499602db
+	}
+
+}
