@@ -1,0 +1,23 @@
+
+public class A_ex06 {
+
+	public static void main(String[] args) {
+		
+		int a = 0; 
+		int b = 0;
+		
+		System.out.println("a는 " +a);
+		System.out.println("a++ 1번쨰 " + a++); // 출력 후 a 증가
+		System.out.println("a++ 2번쨰 " + a++);
+		System.out.println("a++ 3번쨰 " + a++);
+		System.out.println("a++ 4번쨰 " + a++);
+		System.out.println("\n");
+		
+		System.out.println("b는 " +b);
+		System.out.println("++b 1번쨰 " + ++b); // b 먼저 증가 후 출력
+		System.out.println("++b 2번쨰 " + ++b);
+		System.out.println("++b 3번쨰 " + ++b);
+		System.out.println("++b 4번쨰 " + ++b);
+	}
+
+}
